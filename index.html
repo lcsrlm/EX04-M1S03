@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de cadastro</h1>
+    </header>
+
+    <section>
+
+        <div>
+            <form action="#" method="post">
+                <label for="nome">
+                    <p>Nome: <input type="text" name="nameUser" id="nameUser"></p>
+                </label>
+                <label for="dataDeNascimento">
+                    <p id="data">Data de Nascimento: <input type="date" name="dataNas" id="dataNas"></p>
+                </label>
+                <label for="cpf">
+                    <p>CPF: <input type="text" name="cpfUser" id="cpfUser"></p>
+                </label>
+                <label for="cidade">
+                    <p id="muni">Município: <select name="city" id="city">
+                            <option value="mun">Selecione</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="cwb">Curitiba</option>
+                            <option value="bh">Belo Horizonte</option>
+                            <option value="floripa">Florianópolis</option>
+                            <option value="salvador">Salvador</option>
+                            <option value="recife">Recife</option>
+                            <option value="manaus">Manaus</option>
+                            <option value="other">Outro</option>
+                        </select></p>
+                </label>
+                <label for="enviar">
+                    <input type="button" value="Finalizar">
+                </label>
+            </form>
+        </div>
+        <div></div>
+    </section>
+    <footer>
+        <p>&copy; DEVinHouse [Zucchetti] </p>
+    </footer>
+
+</body>
+
+</html>
