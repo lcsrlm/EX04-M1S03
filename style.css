@@ -18,12 +18,9 @@ section {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
 }
-
-
 
 input,
 select {
@@ -31,15 +28,12 @@ select {
     margin: auto;
     border-radius: 5px;
     border-color: rgba(109, 111, 112, 0.367);
-
 }
 
 p {
     font-size: small;
     text-indent: 0px;
 }
-
-
 
 #data {
     text-indent: -95px;
@@ -52,5 +46,4 @@ p {
 footer {
     color: white;
     text-align: center;
-
 }
